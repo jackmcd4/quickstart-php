@@ -39,7 +39,7 @@ The QuickStart project contains the following major components:
 
 - index.html
 
-  Follow these steps to generate the QuickStart project and run thru the use cases:
+Follow these steps to generate the QuickStart project and run thru the use cases:
 
 1. Download or clone this project.
 2. Deploy the files to your favorite PHP-enabled web server.
