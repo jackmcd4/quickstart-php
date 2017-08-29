@@ -218,7 +218,7 @@ class AccountsApi
             throw new \InvalidArgumentException('Missing the required parameter $account_key when calling gETAccountSummary');
         }
         // parse inputs
-        $resourcePath = "/accounts/{account-key}/Summary";
+        $resourcePath = "/accounts/{account-key}/summary";
         $httpBody = '';
         $queryParams = array();
         $headerParams = array();
@@ -256,7 +256,7 @@ class AccountsApi
                 $httpBody,
                 $headerParams,
                 '\Swagger\Client\Model\GETAccountSummaryType',
-                '/accounts/{account-key}/Summary'
+                '/accounts/{account-key}/summary'
             );
 
             return array($this->apiClient->getSerializer()->deserialize($response, '\Swagger\Client\Model\GETAccountSummaryType', $httpHeader), $statusCode, $httpHeader);
